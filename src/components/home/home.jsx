@@ -6,8 +6,7 @@ import './home.css'
 const Home = () => {
     return (
         <div className="home-container">
-            <img src={backgroundImg}/>
-
+            <p className="para">Welcome to Manage Your Employees</p>
         </div>
     )
 }
