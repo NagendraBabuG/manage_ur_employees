@@ -1,0 +1,27 @@
+img{
+    height: 100%;
+    background-size: cover;
+    margin: 0px;
+    width: 100%;
+}
+.home-container{
+    position:absolute;
+  top:5.1rem;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+@media (max-width : 700px) {
+    img{
+        background-size: cover;
+        margin: 2rem 0px;
+        height: 93%;
+    }
+    .home-container{
+        position: absolute;
+        top: 5rem;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    }
+}

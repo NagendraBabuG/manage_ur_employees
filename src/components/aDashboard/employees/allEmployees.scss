@@ -1,0 +1,70 @@
+/*Employees Data*/
+thead{
+    background-color:dimgrey;
+    padding: 10px;
+    height: 2rem;
+    border-radius: 5px;
+}
+tbody{
+overflow: scroll;
+}
+.content-table{
+    //border-collapse: collapse;
+    
+    width: 50%;
+    margin: auto;
+    margin-left: 15px;
+    padding: 34px;
+    justify-content: space-between;
+    border-radius: 6px;
+    border-spacing: 0px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    //border-collapse: separate;
+    overflow: scroll;
+    text-align: center;
+    th{
+        
+        padding: 15px 15px;
+    }
+    td{
+        border-top: 2px solid white;
+        padding: 20px 20px;
+        //margin: 10px;
+    }
+    
+}
+.b2{
+    background-color:beige;
+    margin:10px
+}
+.b2 td button{
+    //visibility:hidden;
+    background: transparent;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    
+    border: none !important;
+
+}
+button:hover{
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    content: normal;
+}
+.btn:focus { 
+    background-color:beige;
+    outline:none;
+    }
+table{
+    border-spacing: 0px;
+    
+}
+td{
+    margin: 5px;
+}

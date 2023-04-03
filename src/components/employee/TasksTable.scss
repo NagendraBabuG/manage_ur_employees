@@ -1,0 +1,36 @@
+.task-data{
+    margin: auto;
+    border: 2px solid #AEAEAE;
+    border-radius: 10px;
+    border-spacing: 0px;
+    text-align: left;
+    border: solid;
+    th{
+        padding: 15px 15px;
+    }
+    td{
+        border-top: 1px solid #AEAEAE;
+        padding: 10px 10px;
+        button{
+            background-color: transparent;
+            border: 0px;
+            margin-left: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }
+}
+.s2h{
+    background-color:dimgray;
+    border-radius: 10px;
+}
+tbody{
+    border-radius: 10px;
+    background-color: white;
+}
+.tasklist{
+    border-radius: 10px;
+}
+table{
+    border-radius: 10px;
+}

@@ -1,0 +1,37 @@
+.addForm{
+    display: block;
+    margin: 0;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    padding: 1rem;
+}
+.formContainer{
+
+    height: 100%;
+    width: 100%;
+   max-width: 300px;
+   margin: 0 auto;
+   padding: 20px;
+   box-sizing: border-box;
+}
+.inputbox{
+    
+    display:flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+    max-width: 300px;
+    margin: 1rem;
+    width: 100%;
+}
+label{
+    float: left;
+    margin-left: 0px;
+    font-size: 16px;
+    padding: 5px;
+}
+input{
+    height: 25px;
+    width: 100%;
+}

@@ -1,0 +1,96 @@
+
+$lightBlack : #1B1C21;
+$darkBlack : #141518;
+$white : #FDFCFF;
+$primaryPurple : #6100E0;
+$secondaryGreen : #29BF12;
+$secondaryRed : #F21B3F;
+$secondaryBlue : #0361FF;
+$grey: #AEAEAE;
+
+.admin{
+    position: relative;
+   
+    justify-content: center;
+    margin-left: 13%;
+    margin-right: 13%;
+    .top-part{
+        width: 100%;
+        display: grid;
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        grid-template-columns: 648px auto auto;
+    
+        button{
+            margin-left: 10%;
+            margin-right: 10%;
+            height: 47px;
+            width: 204px;
+            background-color: #0361FF;
+            padding: 5px 15px;
+            border: 0px;
+            border-radius: 10px;
+            color: #FDFCFF;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .admin{
+        width: 350px;
+        max-width: 350px;
+        margin: 10px;
+    }
+    .top-part{
+        display: block;
+        margin: 10px;
+        width: 350px;
+        max-width: 350px;
+
+    }
+    table {width:100%;}
+    thead {display: none;}
+    tr:nth-of-type(2n) {background-color: inherit;}
+    tr td:first-child {background: #f0f0f0; font-weight:bold;font-size:1.3em;}
+    tbody td {display: block;  text-align:center;}
+    tbody td:before { 
+        content: attr(data-th); 
+        display: block;
+        text-align:center;  
+    }
+ }
+ 
+
+@media (max-width: 100px) {
+    table{
+        width: 300px;
+    }
+    .admin{
+        overflow-x: auto;
+        width: 320px;
+        margin-left : 2rem;
+        justify-content: center;
+        position: relative;
+    }
+        .top-part{
+        width: 300px;
+        display: grid;
+        margin-top: 3rem;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 1rem;
+        grid-template-columns: auto;
+        }
+        
+          
+          /*
+                Label the data
+            You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+                */
+          
+          
+}

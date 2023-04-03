@@ -1,0 +1,18 @@
+.action-btn{
+    color: blue;
+    text-decoration-style: solid;
+    
+}
+.deleteDialog{
+    display:flexbox;
+}
+.dialog-action{
+    margin: 4%;
+    padding : auto;
+}
+.buttonCancel{
+    float:left;
+}
+.Deletebutton{
+    float:right;
+}

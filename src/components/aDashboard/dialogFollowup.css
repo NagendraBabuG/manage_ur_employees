@@ -1,0 +1,147 @@
+.followUpForm{
+    width: 55rem;
+}
+.followUpForm .buttonFollowup{
+    width: 15rem;
+    height: 4rem;
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+    
+    margin-left: 10rem;
+    padding: 0.5rem;
+    font-size: medium;
+    text-align: center;
+    background-color: aqua;
+}
+
+.followUpForm .buttonFollowup:focus{
+    outline: none;
+}
+.followUpForm .buttonFollowup:hover{
+    outline: none;
+
+
+}
+
+
+
+
+input:focus, label:focus-within {
+    outline: none;
+  }
+
+  .first-division input{
+    float: left;
+    height: 3rem;
+    margin: 0px;
+    width: 75%;
+  }
+  .first-division .removeIcon{
+    margin-left: 1rem;
+    margin-top: 5rem;
+  }
+  .addbuttonFollow{
+    margin: auto;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .title1{
+    font-size: medium;
+    font-weight: 700;
+    display: block;
+  }
+
+  .cButton{
+    width: 10rem;
+    margin-left: 0px;
+    background-color: red;
+    overflow: hidden;
+}
+.cButton :hover{
+      outline: none;
+      text-decoration: none;
+      width: 10rem;
+  }
+  .cButton :focus{
+    outline: none;
+  }
+
+  .cButton{
+    width: 10rem;
+    margin-top: 0px;
+    border-radius: 5px;
+    height: 3rem;
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0.5rem;
+    margin-right: 0px;
+    font-size: medium;
+    text-align: center;
+    background-color: rgb(246, 12, 12);
+}
+.titleHeading{
+    background-color: gray;
+    padding: 0.5rem;
+    height: 3rem;
+}
+.followUpTitle{
+    font-size: medium;
+    font-style: bold;
+    font-weight: 500;
+}
+
+.cButton:focus{
+    width: 10rem;
+    outline: none;
+}
+.cButton:hover{
+    background-color: rgb(246, 12, 12);
+    width: 10rem;
+    outline: none;
+
+
+}
+
+
+.aButton{
+    width: 10rem;
+    height: 3rem;
+    margin-left: 1.5rem;
+    color: black;
+    text-transform: capitalize;
+    margin: 0px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: medium;
+    text-align: center;
+    background-color: rgb(7, 238, 7);
+    float: right;
+    margin-right: 0px;
+}
+
+.aButton:focus{
+    width: 10rem;
+    outline: none;
+}
+.aButton:hover{
+    width: 10rem;
+    outline: none;
+    color: black;
+    background-color: rgb(7, 238, 7);
+
+}
+.actionbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.action-txt{
+    color: black;
+}
+.removeIcon{
+    margin-top: 2rem;
+}

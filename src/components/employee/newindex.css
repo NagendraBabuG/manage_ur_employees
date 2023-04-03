@@ -1,0 +1,51 @@
+.employeedashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .today-task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .title-heading{
+    display: flex;
+    flex-direction: row;
+  }
+  .heading{
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .addtask {
+    padding-top: 0;
+    margin-left: 3rem;
+    border-radius: 20px;
+    margin-right: auto;
+    width: 50%;
+    
+  }
+  .today-graph{
+    margin-top: 3rem;
+  }
+  .weekly-graph{
+    margin-top: 3rem;
+  }
+  .select-graph{
+    margin-top: 3rem;
+  }
+  
+  @media (max-width: 768px) {
+    .today-task {
+      flex-direction: column;
+    }
+    
+    .addtask {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  

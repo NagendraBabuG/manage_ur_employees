@@ -1,0 +1,54 @@
+.employee-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  
+    .today-task {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
+  
+      .heading {
+        h3 {
+          font-size: 28px;
+        }
+      }
+  
+      .addtask {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+  
+        button {
+          margin-left: 10px;
+        }
+      }
+  
+      .alltask {
+        width: 100%;
+      }
+    }
+  
+    .today-graph,
+    .weekly-graph,
+    .select-graph {
+      width: 100%;
+      margin-bottom: 20px;
+  
+      .h3 {
+        h3 {
+          font-size: 28px;
+        }
+      }
+  
+      .border {
+        border: 1px solid #ccc;
+        padding: 20px;
+      }
+    }
+  }
+  

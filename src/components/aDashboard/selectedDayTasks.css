@@ -1,0 +1,42 @@
+.taskContainer{
+    margin: 0%;
+
+}
+.taskContainer input{
+    width: 60%;
+    margin-left: 0.5rem;
+    margin-bottom: 0px;
+}
+form .tasksbutton{
+    top: 2px;
+    margin-bottom: 0.5rem;
+}
+.alltasks{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.alltasks .tablehead tr th{
+    padding: 1em;
+
+  border-bottom: 2px solid white; 
+}
+
+.tablebody tr td{
+    padding: 1em;
+}
+.tablebody{
+    background-color: antiquewhite;
+}
+.notasks{
+    text-align: center;
+    font-size: medium;
+    font-weight: 300;
+    margin: 0.5rem auto;
+}
+.followupheading{
+    margin-bottom: 0px;
+}

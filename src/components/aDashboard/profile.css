@@ -1,0 +1,44 @@
+.employeeProfile{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    text-align: center;
+    margin: 0px auto;
+    max-width: 1450px;
+    max-height: 950px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.col1{
+    display: block;
+    width: 20%;
+    height: auto;
+}
+.col1 img{
+    width: 60%;
+    height: auto;
+}
+.col1 .eName{
+    font-weight: 800;
+}
+.col2{
+    display: block;
+    width: 40%;
+    height: auto;
+    
+}
+.col3{
+    display: block;
+    width: 35%;
+}
+.goBack{
+}
+.goBack button{
+    background-color: black;
+    margin: auto;
+    margin-top: 1rem;
+}
+.goBack button :hover{
+    background-color: black;
+}

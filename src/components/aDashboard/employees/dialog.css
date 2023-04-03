@@ -1,0 +1,40 @@
+.form{
+    padding : 10px;
+    margin:8px;
+}
+.addForm{
+    display:flexbox;
+}
+.input-box{
+    margin: 10px;
+    height: 30px;
+}
+.action-btn{
+    color: rgb(216, 29, 79);
+    text-decoration-style: solid;
+    
+
+}
+input{
+    height: 30px;
+}
+.cancelButton{
+    float:left;
+    padding:0px;
+    margin:5px;
+    margin-right: 5px;
+    background-color: red;
+    text-decoration-style: solid;
+    
+}
+.addButton{
+    padding:0px;
+    margin:5px;
+    float:right;
+    text-decoration-style: solid;
+    margin-left: 5px;
+    
+}
+.action-txt{
+    color: rgb(216, 29, 79);
+}

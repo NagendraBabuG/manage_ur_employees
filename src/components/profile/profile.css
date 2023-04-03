@@ -1,0 +1,18 @@
+.userrow{
+    width: 100%;
+    height: 1.5rem;
+    padding: 3px;
+    font-style: bold;
+    font-size: medium;
+    
+}
+button{
+    background-color: blue;
+    text-align: left;
+}
+.profile{
+    width: 100%;
+    max-width: max-content;
+    margin: auto;
+    font-style: bold;
+}
