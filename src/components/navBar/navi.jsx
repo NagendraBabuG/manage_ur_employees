@@ -33,6 +33,7 @@ const Navigation = () => {
     removeCookie('nbk')
     console.log('navigting')
     setCurrentUser(null);
+    sessionStorage.clear()
     navigate("/signin")
     //<Navigate to='/signin'/>
 
