@@ -6,6 +6,7 @@ import EmployeeDashboard from "../employee/index.jsx";
 import { useState } from "react";
 import { useEffect } from "react";
 import { getUserDoc } from "../../utils/firebase";
+import EmployeeBoard from "../employee/newindex";
 import { useCookies } from "react-cookie";
 const Dashboard = ()=> {
 	const [role, setRole] = useState()
@@ -18,7 +19,7 @@ const Dashboard = ()=> {
 	// }, []);
 	return (
 		<div>
-			{(userRole == 'employee') &&<EmployeeDashboard/>}
+			{(userRole == 'employee') && <EmployeeBoard/>}
 			{ (userRole == 'admin') && <AdminDashBoard/>}
 		</div>
 	)

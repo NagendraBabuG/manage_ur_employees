@@ -67,7 +67,7 @@ const DayTasks = ({setDateRequired, dateRequired})=> {
     return <div className="taskContainer">
         <h2>Tasks</h2>
         <form onSubmit={handleSubmit}>
-            Select Date :
+        Select Date :
             <input type="date" value={dateRequired} onChange={(e)=> {
                 setDateRequired(e.target.value)
                 console.log(dateRequired)

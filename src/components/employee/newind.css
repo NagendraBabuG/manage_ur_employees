@@ -1,0 +1,43 @@
+.edashboard{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+.tasksBar{
+    
+    background-color: white;
+    display: block;
+}
+.taskstoday{
+    max-width: 700px;
+}
+.sDate input{
+    width: 10rem;
+    
+}
+.addTask{
+    margin: auto;
+    justify-content: center;
+    padding: 0.5rem;
+    
+    background-color: white;
+    
+}
+.secondDiv{
+    display: flex;
+    flex-direction: row;
+    margin: auto 10%;
+    
+    background-color: white;
+}
+.pieChar{
+    width: 50%;
+    float: left;
+    margin: 3rem 10%;
+    height: 50%;
+}
+.followups{
+    margin-top: 3rem;
+    width: 100%;
+    height: 100%;
+}

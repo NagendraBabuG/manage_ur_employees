@@ -39,7 +39,7 @@ function TodayEmployee(props) {
   }
   var toPass = [work, meet, recess];
   console.log(toPass)
-  return <PieChart props={toPass} />;
+  return <PieChart props={toPass}/>;
 }
 
 export default TodayEmployee;

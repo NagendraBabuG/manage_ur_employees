@@ -73,21 +73,22 @@ export default function AddDialog({ children }) {
 
   return (
     <div className='addForm'>
-      <Button variant="outlined" onClick={handleClickOpen} className="buttonAdd">
+      <button variant="outlined" onClick={handleClickOpen} className="buttonAdd">
         <h4>Add Task</h4>
-      </Button>
+      </button>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle><h3 className='AddTask'>Add Task</h3></DialogTitle>
         <DialogContent>
           <DialogContentText>
           </DialogContentText>
           <form className="fromContainer">
-              <label htmlFor="type" className="s2">Task Type</label>
+              <label className="s2">Task Type </label>
               <select id="type" name='type' value={type} onChange={handleChange}>
                 <option value="Work">Work</option>
                 <option value="Meeting">Meeting</option>
                 <option value="Break">Break</option>
               </select>
+              
               <br></br>
           
 

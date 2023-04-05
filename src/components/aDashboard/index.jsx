@@ -1,23 +1,17 @@
 import React from "react";
 import "./index.scss";
 import axios from "axios";
-import { useState, useContext, useEffect } from "react"
+import { useState, useEffect } from "react"
 import { Navigate, useNavigate } from 'react-router-dom';
 import { useCookies } from 'react-cookie';
-import { UserContext } from "../../contexts/userContext";
 import Employees from "./employees/employees";
 import FormDialog from "./employees/dialog";
 import EmployeeProfile from "./employeeProfile";
-//import AddEmployee from "./employees/addEmployee";
-
-//import AddEmployee from "./employees/addEmployeePopup";
 const AdminDashBoard = () => {
 
   const [cookies, setCookie, removeCookie] = useCookies(["nbk"]);
-  const { currentUser, setCurrentUser } = useContext(UserContext)
   const [employeesData, setEmployees] = useState([])
   const [isDataset, setDataset] = useState(false)
-  const [isOpen, setIsOpen] = useState(false);
   const defaultSemail = sessionStorage.getItem("selectedEmployee")
   console.log(defaultSemail, 'email')
 
@@ -32,15 +26,10 @@ const AdminDashBoard = () => {
 
 
 
-  const togglePopup = (e) => {
-    e.preventDefault()
-    console.log('toggle popup button')
-    setIsOpen(!isOpen);
-  }
-  const [isAddEmployee, setAddEmployee] = useState(false)
+  
   const navigate = useNavigate()
   useEffect(() => {
-    if (cookies['nbk']) navigate("/dashboard")
+    if (cookies["nbk"]) navigate("/dashboard")
     else navigate("/signin")
   }, [cookies])
   console.log('admin')
@@ -73,21 +62,16 @@ const AdminDashBoard = () => {
   useEffect(() => {
     getAllEmployees()
   }, [])
-  const propData = {
-    setAddEmployee
-  }
-  const handleAddEmployee = async (e) => {
-      e.preventDefault()
-      setAddEmployee(true)
-  }
+  
   const profileProps = {
     'email': selectedEmployee,
     setSelectEmployee
   }
+  console.log(sessionStorage.getItem("selectedEmployee"), ' storage')
   
   return (
     <>{
-      (selectedEmployee != '' && selectedEmployee != null) ? <EmployeeProfile props={profileProps}></EmployeeProfile>
+      (selectedEmployee != '' && selectedEmployee != null && selectedEmployee != 'null') ? <EmployeeProfile props={profileProps}></EmployeeProfile>
       : 
     <div className="admin">
       <div className="top-part">

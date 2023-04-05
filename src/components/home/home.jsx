@@ -6,7 +6,7 @@ import './home.css'
 const Home = () => {
     return (
         <div className="home-container">
-            <p className="para">Welcome to Manage Your Employees</p>
+            <h2 className="para">Welcome to Manage Your Employees</h2>
         </div>
     )
 }

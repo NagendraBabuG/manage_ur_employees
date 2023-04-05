@@ -38,3 +38,6 @@ input{
 .action-txt{
     color: rgb(216, 29, 79);
 }
+.buttonAdd{
+    text-transform: capitalize;
+}

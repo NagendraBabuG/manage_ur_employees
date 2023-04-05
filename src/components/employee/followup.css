@@ -1,0 +1,15 @@
+.assignedTasks{
+    margin: auto;
+}
+.Heading{
+    text-align: center;
+    justify-content: center;
+}
+.atask{
+    font-size: large;
+    text-transform: capitalize;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

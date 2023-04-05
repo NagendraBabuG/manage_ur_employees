@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react'
 //import './main.scss'
 //import './chatcss.css'
 import './newindex.css'
-import { useSelector } from "react-redux";
 import AddTaskButton from "./addTask";
 import AddDialog from './addtasks';
 import axios from "axios";

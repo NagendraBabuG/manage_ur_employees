@@ -4,6 +4,8 @@
 }
 .addForm{
   max-width: 300px;
+  justify-content: center;
+  margin: auto;
 }
 form{
   width: 300px;
@@ -37,4 +39,30 @@ select{
   height: 38px;
   border-radius: 10px;
   border: 1px solid #1B1C21;
+}
+.buttonAdd{
+  margin: 1rem auto;
+  justify-content: center;
+  background-color:greenyellow;
+  color: black;
+  padding: 0.5rem;
+  text-transform: capitalize;
+  font-size: medium;
+}
+.buttonAdd:hover{
+  background-color: greenyellow;
+  color: black;
+}
+.addtask{
+  margin: auto;
+}
+.notasks{
+  margin: auto;
+  color: black;
+  width: 100%;
+}
+tbody{
+  justify-content: center;
+  overflow-y: scroll;
+  max-width: 250px;
 }

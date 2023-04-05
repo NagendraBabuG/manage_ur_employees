@@ -69,9 +69,9 @@ export default function FormDialog({ children }) {
 
   return (
     <div className='addForm'>
-      <Button variant="outlined" onClick={handleClickOpen} className="buttonAdd">
+      <button variant="outlined" onClick={handleClickOpen} className="buttonAdd">
         <h4>Add Employee</h4>
-      </Button>
+      </button>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle><div className='AddEmployee'>Add Employee</div></DialogTitle>
         <DialogContent>
